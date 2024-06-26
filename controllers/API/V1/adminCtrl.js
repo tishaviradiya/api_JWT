@@ -69,13 +69,13 @@ module.exports.managerRegister=async(req,res)=>{
             port: 587,
             secure: false, // Use `true` for port 465, `false` for all other ports
             auth: {
-              user: "tishaviradiya@gmail.com",
-              pass: "zvjlvwueahaydzoc",
+              user: "prarthnakothiya6703@gmail.com",
+              pass: "fcunkngozlymudwi",
             },
           });
           let mail=`Your email is ${req.body.email}<br/> your password is ${req.body.password}`;
           const info = await transporter.sendMail({
-            from: ' 👻 <tishaviradiya@gmail.com>', // sender address
+            from: ' 👻 <prarthnakothiya6703@gmail.com>', // sender address
             to: "tishaviradiya@gmail.com", // list of receivers
             subject: "Hello ✔", // Subject line
             text: "Hello world?", // plain text body
